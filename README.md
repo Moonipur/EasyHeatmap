@@ -36,4 +36,6 @@ install.packages("insight")
 devtools::install_github("jokergoo/ComplexHeatmap")
 ```
 # Example
-![Heatmap-of-cfHCC](https://github.com/Moonipur/EasyHeatmap/assets/119776865/8440b338-8adc-47be-a86d-427bb48ec62c)
+```
+Rscript ComplexHeatmap.r ./test/Test_input_data.json
+```
