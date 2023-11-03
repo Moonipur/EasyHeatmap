@@ -10,8 +10,11 @@ conda install -c conda-forge r-devtools
 # R-base session
 R
 > install.packages("BiocManager")
+
 > install.packages("circlize")
+
 > install.packages("rjson")
+
 > install.packages("insight")
 
 > devtools::install_github("jokergoo/ComplexHeatmap")
