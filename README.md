@@ -40,3 +40,10 @@ Test how to run
   ```
   Rscript ComplexHeatmap.r ./test/Test_input_data.json
   ```
+
+Picture
+
+# Contact
+Deveper: Moon
+
+Email: songphon_sutthittha@cmu.ac.th
