@@ -8,7 +8,7 @@
         "y_label": 1,
         "y_label_font": 10,
         
-        "data_column": ["3:5"],
+        "data_column": ["2:5"],
         "data_type":"continuous",
         
         "scaling": true,
@@ -34,7 +34,7 @@
         "visaul_type": ["tab", "tab"],
         "data_type": ["conti", "categ"],
         "sub_legend": ["Age", "Height"], 
-        "color": [["white","blue"], ["salmon","yellow"]]
+        "color": [["white","green"], ["salmon","yellow"]]
     },
 
     "Export": {
