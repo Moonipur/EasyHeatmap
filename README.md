@@ -39,16 +39,16 @@ ComplexHeatmap script for easy use
 Edit only JSON file
   ```
   {
-      "Excel_path": "/mnt/d/CMU_TEAM/Coding_part/cfDNA/Model/dataset-for-train/dataset-complete.xlsx",
-      "Output_dir": "/mnt/d/CMU_TEAM/Coding_part/cfDNA/Model/plot",
+      "Excel_path": "./Plant_metabolites.xlsx",
+      "Output_dir": null,
       
       "Main_plot": {
-          "title": "Heatmap visualization",
+          "title": "Heatmap example",
           "legend": "Z-score",
           "y_label": 1,
           "y_label_font": 10,
           
-          "data_column": ["4:14","15:17", 25],
+          "data_column": ["2:5"],
           "data_type":"continuous",
           
           "scaling": true,
@@ -70,19 +70,19 @@ Edit only JSON file
       },
       
       "Side_plot": {
-          "data_column": [2, 3], 
-          "visaul_type": ["bar", "bar"],
-          "data_type": ["categ", "conti"],
-          "sub_legend": ["Sex", "Age"], 
-          "color": [["pink","blue"], ["green","gray"]]
+          "data_column": [7, 8], 
+          "visaul_type": ["tab", "tab"],
+          "data_type": ["conti", "categ"],
+          "sub_legend": ["Age", "Height"], 
+          "color": [["white","green"], ["salmon","yellow"]]
       },
   
       "Export": {
           "file_type": "png",
-          "file_name": "Heatmap-of-cfHCC",
-          "width": 800,
-          "height": 1500,
-          "resolution": 120
+          "file_name": "Heatmap-of-plant",
+          "width": 400,
+          "height": 500,
+          "resolution": 100
       }
   }
   ```
