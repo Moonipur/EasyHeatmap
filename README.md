@@ -90,7 +90,7 @@ Edit only JSON file
 
 Usage
   ```
-  Rscript ComplexHeatmap.r
+  Rscript ComplexHeatmap.r ./Input_data.json
   ```
 
 Test 
