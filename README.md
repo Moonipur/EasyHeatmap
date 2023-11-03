@@ -18,6 +18,7 @@ ComplexHeatmap script for easy use
   ```
 # R-base session
   ```
+  conda activate RHeatmap
   R
   ```
   ```
