@@ -44,6 +44,6 @@ Test how to run
 Picture
 
 # Contact
-Deveper: Moon
+Deveper: Mr. Moon
 
 Email: songphon_sutthittha@cmu.ac.th
