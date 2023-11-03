@@ -5,7 +5,12 @@ library(circlize)
 library(rjson)
 library(insight)
 
-params <- fromJSON(file='Input_data.json')
+args <- commandArgs(trailingOnly = TRUE)
+if (is.null(args[1]) == TRUE) {
+    params <- fromJSON(file='Input_data.json')
+} else {
+    params <- fromJSON(file= args[1])
+}
 false_sym <- '\U1F5F7 '
 true_sym <- '\U1F5F9 '
 
@@ -226,14 +231,14 @@ main_color <- colorRamp2(c(min(matrix), median(matrix), max(matrix)), c(params$M
 # side annotation 
 # ***Please edit with our hand because it's package limitation !!!
  
-col_fun <- colorRamp2(c(min(df[[3]]), max(df[[3]])), c('dimgray','green'))
+col_fun <- colorRamp2(c(min(df[[7]]), max(df[[7]])), c("white","green"))
 
 r_anno <- rowAnnotation(
-    Sex = df[[2]],
-    Age = df[[3]], 
+    Age = df[[7]], 
+    Height = df[[8]], 
     col= list(
-        Sex = c('Female'='deeppink', 'Male'='blue'),
-        Age = col_fun
+        Age = col_fun,
+        Height = c('Small'='salmon', 'Tall'='yellow')
     )
 )
 ############################################################################
