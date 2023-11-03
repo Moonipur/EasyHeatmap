@@ -11,9 +11,6 @@ ComplexHeatmap script for easy use
   conda activate Rheatmap
   ```
   ```
-  conda install -c r r-tidyverse
-  ```
-  ```
   conda install -c conda-forge r-rio
   ```
   ```
