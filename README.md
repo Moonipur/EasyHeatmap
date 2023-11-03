@@ -42,6 +42,8 @@ Test how to run
   ```
 
 Picture
+![Heatmap-of-plant](https://github.com/Moonipur/EasyHeatmap/assets/119776865/fd72a257-36f1-4448-9b17-73543f3c7890)
+
 
 # Contact
 Deveper: Mr. Moon
