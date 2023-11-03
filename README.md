@@ -88,7 +88,12 @@ Edit only JSON file
   }
   ```
 
-Test how to run
+Usage
+  ```
+  Rscript ComplexHeatmap.r
+  ```
+
+Test 
   ```
   Rscript ComplexHeatmap.r ./test/Test_input_data.json
   ```
