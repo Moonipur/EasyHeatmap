@@ -1,7 +1,7 @@
 # EasyHeatmap
 ComplexHeatmap script for easy use
 
-  required R-base version 4.3
+  >required R-base version 4.3
 
 # Installation
   ```
