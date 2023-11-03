@@ -1,0 +1,47 @@
+{
+    "Excel_path": "/mnt/d/CMU_TEAM/Coding_part/cfDNA/Model/dataset-for-train/dataset-complete.xlsx",
+    "Output_dir": "/mnt/d/CMU_TEAM/Coding_part/cfDNA/Model/plot",
+    
+    "Main_plot": {
+        "title": "Heatmap visualization",
+        "legend": "Z-score",
+        "y_label": 1,
+        "y_label_font": 10,
+        
+        "data_column": ["4:14","15:17", 25],
+        "data_type":"continuous",
+        
+        "scaling": true,
+        "color": ["orange", "darkviolet"],
+        
+        "row_dendrogram": true,
+        "column_dendrogram": false,
+        
+        "split_row_group": {
+            "display": false,
+            "method": "by_dend",
+            "categorical": null
+        },
+        "split_column_group": {
+            "display": false,
+            "method": "by_categ",
+            "categorical": 26
+        }
+    },
+    
+    "Side_plot": {
+        "data_column": [2, 3], 
+        "visaul_type": ["bar", "bar"],
+        "data_type": ["categ", "conti"],
+        "sub_legend": ["Sex", "Age"], 
+        "color": [["pink","blue"], ["green","gray"]]
+    },
+
+    "Export": {
+        "file_type": "png",
+        "file_name": "Heatmap-of-cfHCC",
+        "width": 800,
+        "height": 1500,
+        "resolution": 120
+    }
+}
