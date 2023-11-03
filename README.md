@@ -8,6 +8,9 @@ ComplexHeatmap script for easy use
   conda create -n RHeatmap -c conda-forge r-base=4.3
   ```
   ```
+  conda activate Rheatmap
+  ```
+  ```
   conda install -c r r-tidyverse
   ```
   ```
